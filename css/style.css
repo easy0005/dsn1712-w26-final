@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #ececec;
+  color: #222;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.page-container {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.content-width {
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.site-header {
+  padding: 1rem 1rem 0;
+}
+
+.header-inner {
+  border-top: 1px solid #999;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 110px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a {
+  color: #222;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* MAIN */
+main {
+  padding: 1rem 0 0;
+}
+
+.product-layout {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.thumbs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.6rem;
+  margin-top: 0.6rem;
+}
+
+.product-info h1 {
+  font-size: 1.8rem;
+  line-height: 1.1;
+  margin: 0 0 1rem;
+}
+
+.label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.product-info p {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-weight: 700;
+}
+
+.btn {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* STORY / REVIEWS */
+.box {
+  max-width: 360px;
+  margin: 2rem auto 0;
+  padding: 2rem 1.2rem;
+}
+
+.box h2 {
+  font-size: 1.8rem;
+  line-height: 1.15;
+  text-align: center;
+  margin: 0 0 1.5rem;
+}
+
+.box p {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  text-align: left;
+}
+
+.light {
+  background: #f3f4f6;
+  color: #222;
+}
+
+.dark {
+  background: #000;
+  color: #fff;
+}
+
+.name {
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+/* RELATED */
+.related {
+  max-width: 360px;
+  margin: 2rem auto 0;
+  text-align: center;
+}
+
+.related h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.4rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.9rem;
+}
+
+.card {
+  background: #f3f4f6;
+}
+
+.card h3 {
+  font-size: 1rem;
+  margin: 0.8rem 0 0.4rem;
+}
+
+.card p {
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+/* FOOTER */
+.footer {
+  max-width: 360px;
+  margin: 2rem auto 0;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.75rem;
+}
